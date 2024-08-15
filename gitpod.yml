@@ -1,0 +1,9 @@
+image: gitpod/workspace-full
+
+tasks:
+  - init: |
+      sudo apt-get update
+      sudo apt-get install -y build-essential git
+      # Commands to install DevKitPro or other dependencies
+  - command: |
+      make
