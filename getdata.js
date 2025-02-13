@@ -2,7 +2,7 @@
     // Get the entire HTML of the page
     let pageData = document.documentElement.outerHTML;
 
-    // Send data to your Node.js server
+    // Send data to Node.js server
     await fetch("http://localhost:3000", {
         method: "POST",
         headers: {
